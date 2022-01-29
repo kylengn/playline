@@ -77,7 +77,7 @@ export default function Home() {
               {players.map((player, idx) => {
                 return (
                   <Player
-                    key={player.id}
+                    key={idx.toString()}
                     name={player.last_name}
                     points={player.points}
                     avatar={player.avatar}
