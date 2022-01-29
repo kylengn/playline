@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="287px" height="38px" viewBox="0 0 287 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>progress</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="279" height="30" rx="15"></rect>
+        <filter x="-1.8%" y="-16.3%" width="103.5%" height="132.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="244" height="9" rx="4.5"></rect>
+        <polygon id="path-5" points="191.628906 0 250.128906 0 246.085938 9 187.585938 9"></polygon>
+        <filter x="-15.7%" y="-96.7%" width="131.4%" height="315.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="artboard/lotto-landing-front-end" transform="translate(-657.000000, -313.000000)">
+            <g id="Group-8" transform="translate(533.000000, 292.000000)">
+                <g id="Group-3" transform="translate(128.000000, 25.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <rect stroke="#DDDDDD" stroke-width="0.4" fill="#FFFFFF" fill-rule="evenodd" x="-0.2" y="-0.2" width="279.4" height="30.4" rx="15"></rect>
+                    </g>
+                    <g id="Group" transform="translate(12.000000, 11.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Rectangle"></g>
+                        <polygon id="Rectangle-Copy" fill="#6FA333" mask="url(#mask-4)" points="-2 0 56.5 0 52 9 -6.5 9"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#6FA333" mask="url(#mask-4)" points="62.5429688 0 121.042969 0 117 9 58.5 9"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#6FA333" mask="url(#mask-4)" points="127.085938 0 185.585938 0 181.542969 9 123.042969 9"></polygon>
+                        <g id="Rectangle-Copy" mask="url(#mask-4)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <path stroke="#A1A1A1" stroke-width="0.2" d="M250.283455,-0.1 L246.150642,9.1 L187.431389,9.1 L191.564202,-0.1 L250.283455,-0.1 Z" fill="#6FA333" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

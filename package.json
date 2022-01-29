@@ -1,0 +1,26 @@
+{
+  "name": "playline",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "0.1.18",
+    "autoprefixer": "10.4.2",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.9",
+    "postcss": "8.4.5",
+    "prettier": "2.5.1",
+    "prettier-plugin-tailwindcss": "0.1.4",
+    "tailwindcss": "3.0.18"
+  }
+}

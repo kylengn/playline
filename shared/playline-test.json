@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "last_name": "James",
+      "points": 28
+    },
+    {
+      "last_name": "Davis",
+      "points": 29
+    },
+    {
+      "last_name": "Gordon",
+      "points": 16
+    },
+    {
+      "last_name": "Siakam",
+      "points": 24
+    },
+    {
+      "last_name": "Leonard",
+      "points": 27
+    },
+    {
+      "last_name": "Lowry",
+      "points": 18
+    },
+    {
+      "last_name": "Russell",
+      "points": 23
+    }
+  ]
+}
