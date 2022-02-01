@@ -68,7 +68,7 @@ export default function Home() {
               </h2>
               <hr className="border-1 mx-auto w-3/5" />
               <p className="xs:text-xs font-sans text-[0.6rem] font-light text-[#686868]">
-                Pro Tips: You can manage your PlayLine's until they go live in
+                Pro Tips: You can manage your PlayLines until they go live in
                 the Upcoming area
               </p>
             </div>
