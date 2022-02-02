@@ -63,7 +63,7 @@ export default function Home() {
               <h1 className="xs:text-4xl text-2xl text-[#464646]">
                 Your play line is set!
               </h1>
-              <h2 className="xs:text-2xl text-sm text-[#737373]">
+              <h2 className="xs:text-xl text-sm text-[#737373]">
                 Come back @ 7:30PM to track it live!
               </h2>
               <hr className="border-1 mx-auto w-3/5" />
